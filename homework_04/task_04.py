@@ -19,4 +19,4 @@ while True:
             continue
         if a < n:
             print('Вводимое число меньше')
-            continueефыt
+            continue
