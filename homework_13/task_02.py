@@ -1,6 +1,3 @@
-# Напишите функцию is_date, которая принимает строку и возвращает bool.
-# Функция должна вернуть True если переданная строка это дата в формате "DD-MM-YYYY"
-
 import re
 def is_date(string: str):
     return re.fullmatch(r'\d{1,2}-\d{1,2}-\d{4}', string) is not None
