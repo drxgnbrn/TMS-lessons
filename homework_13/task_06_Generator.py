@@ -1,3 +1,4 @@
+#Cпособ решения через yield , без использования интераторов
 def generate_words(text):
     for word in text.split():
         yield word

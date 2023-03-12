@@ -1,3 +1,5 @@
+# Всё то же самое, что и в прошлом итераторе, только тут идёт по буквам
+
 class LetterIterable:
     def __init__(self, letter: str):
         self.letters = letter
